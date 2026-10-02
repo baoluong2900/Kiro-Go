@@ -1,7 +1,7 @@
 # Audit: request credit deduction spikes then self-corrects (`ksk_...` keys)
 
 Reported symptom: in the Cloudflare gateway dashboard ("Lịch sử Requests gần
-nhất"), a request against `ksk_030ce59a73a13d66cf5e5583cd0bade8` is briefly
+nhất"), a request against `ksk_<redacted-key-id>` is briefly
 debited 50-70 credits, then the balance corrects down to the real (correct)
 charge a moment later.
 
